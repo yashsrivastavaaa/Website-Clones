@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+}
+
+.Navigation-bar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Navigation-Panel{
+    height: 60px;
+    width: 110px;
+    display: flex;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white ;
+    height: 55px;
+}
+
+.Amazon-Logo img{
+    padding-left: 13%;
+    padding-top: 5%;
+    height: 50px;
+}
+
+.location-box{
+    align-items: center;
+    display: flex;
+    width: 100px;
+}
+
+.location .deliver-to{
+    padding-left: 18px;
+    font-size: 0.85rem;
+}
+
+.location_with_name{
+    display: flex;
+    font-weight: 800;
+}
+
+.text-india{
+    padding-left: 7px;
+}
+
+.searchbarbox{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 800px;
+    border-radius: 4px;
+}
+
+.searchdropbox select{
+    height: 42px;
+    border: none;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius: 4px;
+}
+
+.searchbarbox input{
+    height: 40px;
+    padding-left: 10px;
+    font-size: 0.85rem;
+    border: none;
+    width: 100%;
+}
+
+.search-icon{
+    background-color: orange;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 42px;
+    width: 45px;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius: 4px;
+}
+
+.flagandlang{
+    display: flex;
+    align-items: center;
+}
+.flag{
+    background-image: url("assets/flag-400.png");
+    background-size: cover;
+    height: 20px;
+    width: 30px;
+}
+.lang{
+    padding-left:5px;
+}
+.arrow{
+    padding-left: 5px;
+}
+.box5{
+    align-items: center;
+    width: 130px;
+}
+.hello-signin span{
+    padding-top: 10%;
+    font-size: 0.80rem;
+    display: flex;
+}
+
+.accountandarrow{
+    display: flex;
+    font-weight: 800;
+}
+.box6{
+    align-items: center;
+    text-align: center;
+    width: 90px;
+}
+.returns span{
+    padding-top: 15%;
+    padding-left: 12%;
+    font-size: 0.80rem;
+    display: flex;
+}
+
+.orders{
+    display: flex;
+    padding-left: 10%;
+    font-weight: 800;
+}
+
+.box7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+}
+
+.menu{
+    height: 40px;
+    display: flex;
+    width: 100%;
+    background-color: #232f3e;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item-list{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.item-list p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.menu-icon-and-all{
+    width: 50px;
+    padding-left: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.menu-icon-and-all:hover{
+    align-items: center;
+    border: 2px solid white ;
+    height: 35px;
+}
+
+.list-of-items{
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+}
+
+.list-of-items p{
+    display: inline;
+    align-items: center;
+}
+.list-of-items p:hover{
+    align-items: center;
+    border: 2px solid white ;
+    padding: 7px;
+}
+.exclusiveoffer{
+    color: white;
+    align-items: center;
+}
+
+.exclusiveoffer:hover{
+    align-items: center;
+    border: 2px solid white;
+    padding: 7px;
+}
+
+.background-image{
+    background-image: url('assets/Background_Image.jpg');
+    width : 100%;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-section-bg{
+    background-color: white;
+    height: 40px;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.main-section-bg a{
+    color: #007185;
+    font-size: 0.85rem;
+}
+
+.shoppingsection1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(153, 194, 229);
+}
+.box1{
+    width: 23%;
+    height: 370px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom:20px ;
+}
+.box1 h2{
+    margin-top: 7%;
+    font-size: 1.3rem;
+    font-weight: 800;
+    justify-content: center;
+}
+.image-in-box1{
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.box-content{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.box-content p{
+    color: #007185;
+}
+.shoppingsection2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(153, 194, 229);
+}
+.shoppingsection3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(153, 194, 229);
+}
+.back-to-top{
+    background-color: #37475a;
+    display: flex;
+    font-size: 0.85rem;
+    color: white;
+    font-weight: 800;
+    margin-top: 2%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top:hover{
+    background-color: #37475a;
+    opacity: 90%;
+}
+
+.detail-bottom{
+    display: flex;
+    height: 300px;
+    background-color: #232f3e;
+    color: white;
+    justify-content: space-evenly;
+}
+.detail-box-1 ul p{
+    margin-top: 50px;
+    font-weight: 800;
+    display: block;
+    padding-bottom: 3px;
+}
+.detail-box-1 ul a{
+    padding-top: 5px;
+    display: block;
+}
+.detail-box-2 ul p{
+    margin-top: 50px;
+    font-weight: 800;
+    display: block;
+    padding-bottom: 3px;
+}
+.detail-box-2 ul a{
+    display: block;
+    padding-top: 5px;
+}
+.detail-box-3 ul p{
+    margin-top: 50px;
+    font-weight: 800;
+    display: block;
+    padding-bottom: 3px;
+}
+.detail-box-3 ul a{
+    display: block;
+    padding-top: 5px;
+}
+.detail-box-4 ul p{
+    margin-top: 50px;
+    font-weight: 800;
+    display: block;
+    padding-bottom: 3px;
+}
+.detail-box-4 ul a{
+    display: block;
+    padding-top: 5px;
+}
+
+.bottomline{
+    background-color: #232f3e;
+    color: white;
+    border-top: 0.5px solid white;
+}
+
+.logo{
+    display: flex;
+    background-color: #232f3e;
+    align-items: center;
+    justify-content: center;
+}
+
+.amazon-icon-2 img{
+    padding-left: 13%;
+    padding-top: 5%;
+    height: 50px;
+}
+.logo p{
+    color: white;
+    margin-left: 2%;
+    font-size: 1rem;
+}
+
+.condition-and-privacy{
+    background-color: #0F1111 ;
+    height: 110px;
+}
+.line1{
+    display: flex;
+    justify-content: center;
+}
+.line1 a{
+    margin-top: 2%;
+    margin-left: 1%;
+    color: white;
+}
+.line2{
+    display: inline;
+    text-align: center;
+    color: white;
+}
+.line2 p{
+    align-items: center;
+    margin-top: 0.5%;
+    color: white;
+}
+.line2 a{
+    align-items: center;
+    margin-left: 1%;
+    color: white;
+}
