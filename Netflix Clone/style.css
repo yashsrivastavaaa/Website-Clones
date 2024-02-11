@@ -169,7 +169,6 @@
 
 .section-one-all-lines ::placeholder {
     justify-content: center;
-    padding-left: 5%;
     color: rgb(172, 182, 170);
 }
 
@@ -413,7 +412,6 @@
 
 .subscription-email ::placeholder {
     justify-content: center;
-    padding-left: 5%;
     color: rgb(172, 182, 170);
 }
 
@@ -565,4 +563,15 @@
 
 .bottom-language-button i {
     padding-top: 5px;
+}
+input:hover{
+    border: 1px solid white;
+}
+
+input{
+    padding: 0rem 1rem;
+}
+
+a{
+    cursor: pointer;
 }
